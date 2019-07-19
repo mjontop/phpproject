@@ -1,0 +1,44 @@
+body {
+	margin-top: 250px;
+	background-color:black;
+}
+h1 {
+	color: red;
+	text-align: center;
+}
+
+#links {
+	text-align: center;
+	padding: 10px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 25px;
+	color: white;
+	display: block;
+}
+
+a:link {
+	color: aqua;
+	text-decoration: none;
+	display: inline-block;
+}
+
+/* visited link */
+a:visited {
+	color: aqua;
+	text-decoration: none;
+	display: inline-block;
+}
+
+/* mouse over link */
+a:hover {
+	color: hotpink;
+	text-decoration: underline;
+	display: inline-block;
+}
+
+/* selected link */
+a:active {
+	color: blue;
+	text-decoration: underline;
+	display: inline-block;
+}
